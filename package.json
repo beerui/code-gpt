@@ -19,7 +19,7 @@
     "codemirror-editor-vue3": "^2.4.1",
     "lodash": "^4.17.21",
     "nuxt": "^3.10.3",
-    "tdesign-vue-next": "^1.8.1",
+    "tdesign-vue-next": "^1.9.0",
     "typeit": "^8.8.3",
     "vue": "^3.4.19"
   },
@@ -29,6 +29,7 @@
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
     "@tailwindcss/line-clamp": "^0.4.4",
+    "@tdesign-vue-next/nuxt": "^0.1.1",
     "@vueuse/nuxt": "^10.7.1",
     "less": "^4.2.0",
     "postcss": "^8.4.5",

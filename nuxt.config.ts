@@ -3,10 +3,10 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: false },
   build: {
-    transpile: ['tdesign-vue-next', 'loadsh'],
+    transpile: ['loadsh'],
   },
   modules: [
-    'tdesign-vue-next/es/nuxt',
+    '@tdesign-vue-next/nuxt',
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
