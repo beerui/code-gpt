@@ -1,4 +1,4 @@
-import AntHead from '@anthead/core'
+import AntHead from '@brewer/anthill-core'
 import TDesign from 'tdesign-vue-next'
 import { InstallCodemirro } from 'codemirror-editor-vue3'
 

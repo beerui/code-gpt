@@ -1,8 +1,8 @@
 import { onMounted, ref } from "vue";
 import { getExampleList } from "../api/list";
 import { MessagePlugin, PageInfo } from "tdesign-vue-next";
-import { DownloadBlobFile } from "@anthead/utils";
-import {OperatorConfigItem} from "@anthead/core";
+import { DownloadBlobFile } from "@brewer/anthill-utils";
+import {OperatorConfigItem} from "@brewer/anthill-core";
 import BaseOperator from "../utils/BaseOperator";
 
 export default function render(props: any, { slots, emit, attrs }) {

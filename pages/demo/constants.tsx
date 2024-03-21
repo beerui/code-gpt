@@ -1,5 +1,5 @@
 import { PrimaryTableCol, TableRowData } from "tdesign-vue-next";
-import { BTN_LIST_TYPE, OperatorConfigItem } from "@anthead/core";
+import { BTN_LIST_TYPE, OperatorConfigItem } from "@brewer/anthill-core";
 import BaseOperator from "../../utils/BaseOperator";
 export const isCollapse = true
 export const breadcrumb = true

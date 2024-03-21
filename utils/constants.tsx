@@ -1,4 +1,4 @@
-import { BaseFormItemType, BTN_LIST_TYPE, OperatorConfigItem } from '@anthead/core'
+import { BaseFormItemType, BTN_LIST_TYPE, OperatorConfigItem } from '@brewer/anthill-core'
 import { PrimaryTableCol, TableRowData } from 'tdesign-vue-next'
 
 import BaseOperator from '@/utils/BaseOperator'

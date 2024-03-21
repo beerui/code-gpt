@@ -10,7 +10,7 @@
 </template>
 <script setup lang="tsx">
 import { nextTick, ref } from 'vue'
-import {BTN_LIST_TYPE, OperatorConfigItem} from "@anthead/core";
+import {BTN_LIST_TYPE, OperatorConfigItem} from "@brewer/anthill-core";
 import BaseOperator from "../utils/BaseOperator";
 import {useCodeMirrorStore} from "../stores/codeMirror";
 const codeMirrorPinia = useCodeMirrorStore()
@@ -26,7 +26,7 @@ let TableColumns:any = []
 let needTableOperator = false
 const tsTemplate = (searchConfig, TableHeadConfig,TableColumns, renderBread ) => {
   return `import { PrimaryTableCol, TableRowData } from "tdesign-vue-next";
-import { BTN_LIST_TYPE, OperatorConfigItem } from "@anthead/core";
+import { BTN_LIST_TYPE, OperatorConfigItem } from "@brewer/anthill-core";
 import BaseOperator from "../../utils/BaseOperator";
 export const isCollapse = ${searchConfig.length > 6 ? 'true' : 'false'}
 export const breadcrumb = ${!!renderBread}
@@ -138,7 +138,7 @@ const renderCode = (list) => {
           needTableOperator = true
         }
         console.log(renderBread.value);
-        
+
         codeMirrorPinia.changeJsxCode(tsTemplate(searchConfigs.value, TableHeadConfig, TableColumns,renderBread.value))
     })
     nextTick(() => {
