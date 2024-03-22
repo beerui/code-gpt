@@ -2,15 +2,13 @@
 export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: false },
-  build: {
-    transpile: ['loadsh'],
-  },
   modules: [
     '@tdesign-vue-next/nuxt',
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/tailwindcss',
+    'nuxt-lodash',
     ['@nuxtjs/google-fonts', {
       families: {
         Roboto: true,
