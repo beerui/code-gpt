@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+  router: {
+    base: '/code-gpt/'
+  },
   devtools: { enabled: false },
   build: {
     transpile: ['tdesign-vue-next', 'lodash'],
