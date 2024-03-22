@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: false },
   build: {
-    transpile: ['tdesign-vue-next', 'loadsh'],
+    transpile: ['tdesign-vue-next', 'lodash'],
   },
   modules: [
     '@tdesign-vue-next/nuxt',
@@ -23,7 +23,7 @@ export default defineNuxtConfig({
           ital: [100]
         },
       }
-  }],
+    }],
   ],
 
   typescript: {
