@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: false },
+  build: {
+    transpile: ['tdesign-vue-next', 'loadsh'],
+  },
   modules: [
     '@tdesign-vue-next/nuxt',
     '@vueuse/nuxt',
