@@ -1,4 +1,3 @@
-import { defaultsDeep } from 'lodash'
 import { DropdownOption, TdLinkProps, TdPopconfirmProps } from 'tdesign-vue-next'
 
 export declare type OperatorConfigItem = {
