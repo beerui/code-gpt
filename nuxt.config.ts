@@ -25,7 +25,9 @@ export default defineNuxtConfig({
       }
     }],
   ],
-
+  router: {
+    base: './'
+  },
   typescript: {
     shim: false,
   },
